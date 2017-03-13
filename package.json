@@ -1,0 +1,41 @@
+{
+  "name": "gpm-plugin-clear-node-modules",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "version": "0.1.0",
+  "description": "gpm plugin for clean the all NodeJs project's node_modules directory",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpmer/gpm-plugin-clear-node-modules.git"
+  },
+  "keywords": [
+    "git",
+    "gpm",
+    "gpmx",
+    "github",
+    "manager",
+    "plugin"
+  ],
+  "author": "axetroy",
+  "contributors": [
+    {
+      "name": "Axetroy",
+      "email": "troy450409405@gmail.com",
+      "url": "https://axetroy.github.io/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpmer/gpm-plugin-clear-node-modules/issues"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/gpmer/gpm-plugin-clear-node-modules#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "co": "^4.6.0",
+    "fs-extra": "^2.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+language: node_js
+sudo: false
+
+os:
+  - linux
+  - osx
+
+node_js:
+  - '6.9.5'
+  - '7.0.0'
+  - '7.5.0'
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+before_script:
+  - npm install -g yarn
+  - yarn
+
+script:
+  - yarn run test
+
+after_script:
+  - yarn run coverage
