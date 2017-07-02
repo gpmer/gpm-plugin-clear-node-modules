@@ -1,5 +1,7 @@
 # gpm-plugin-clear-node-modules
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gpmer/gpm-plugin-clear-node-modules.svg)](https://greenkeeper.io/)
+
 [gpm](https://github.com/gpmer/gpm.js) plugin for run command ``gpm foreach <plugin>``
 
 The plugin will clean the all NodeJs project's ``node_modules`` directory
